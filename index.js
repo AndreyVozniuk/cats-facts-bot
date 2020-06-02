@@ -1,8 +1,9 @@
-process.env["NTBA_FIX_319"] = 1
+process.env['NTBA_FIX_319'] = 1
 
 const TelegramBot = require('node-telegram-bot-api')
+const fs = require('fs')
 
-const TOKEN = '1164742853:AAGUgHg7GgptKXROoccs45B-iU3IdjjLa48'
+const TOKEN = fs.readFileSync('token.txt', 'utf8')
 
 const bot = new TelegramBot(TOKEN, {
     polling: true
