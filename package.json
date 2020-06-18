@@ -4,8 +4,9 @@
   "description": "Simple telegram bot(first practice with telegram bots)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js", 
-    "dev": "node ./src/index.js"
+    "start": "nodemon ./src/index.js",
+    "dev": "node ./src/index.js",
+    "database": "node ./src/catsService.js"
   },
   "keywords": [
     "telegram",
@@ -15,6 +16,8 @@
   "author": "Andriy Vozniuk (vozniukandrey@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "jimp": "^0.13.0",
+    "node-fetch": "^2.6.0",
     "node-telegram-bot-api": "^0.50.0"
   }
 }
