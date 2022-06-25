@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "jimp": "^0.13.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "node-telegram-bot-api": "^0.50.0"
   }
 }
